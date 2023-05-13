@@ -1,34 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# How to Setup and Use Apollo Client in Next.js 13 App Directory
 
-## Getting Started
+In this article, you'll discover how to set up and use Apollo Client in the new Next.js 13 app directory. Specifically, you'll learn how to use Apollo Client in both React Server and Client Components.
 
-First, run the development server:
+![How to Setup and Use Apollo Client in Next.js 13 App Directory](https://codevoweb.com/wp-content/uploads/2023/05/How-to-Setup-and-Use-Apollo-Client-in-Next.js-13-App-Directory.webp)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Topics Covered
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Bootstrap the Next.js 13 Project
+- Use Apollo Client in a React Server Component (RSC)
+    - Create a Scoped Apollo Client Instance
+    - Use the Apollo Client Instance in an RSC
+- Use Apollo Client in a Client-Side Component (SSR)
+    - Create the Apollo Client Wrapper
+    - Add the Apollo Client Wrapper in the Root Layout Component
+    - Use the Apollo Client in a Client-Side Component
+    - Render the Client-Side Component in a Server Component
+    - Create a Loading Component
+- Should you use Apollo Client in a Client or Server Component?
+- Conclusion
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+Read the entire article here: [https://codevoweb.com/setup-and-use-apollo-client-in-nextjs-13-app-directory/](https://codevoweb.com/setup-and-use-apollo-client-in-nextjs-13-app-directory/)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
